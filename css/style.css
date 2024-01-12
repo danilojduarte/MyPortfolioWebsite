@@ -11,6 +11,15 @@
     font-family: 'Inter', sans-serif;
     /* font-family: 'Sen', sans-serif; */
 }
+
+/* Declarações Variaveis */
 :root {
-    --text-color: ;
+    --text-color: #2d3134;
+    --bg-color: #f4f8ed;
+    --main-color: #f66f4d;
+    --other-color: ##5b5f62;
+
+    --h1-font: 5.3rem;
+    --h2-font: 3.6rem;
+    --p-font: 1rem;
 }
