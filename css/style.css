@@ -14,12 +14,20 @@
 
 /* Declarações Variaveis */
 :root {
-    --text-color: #2d3134;
+    --text-color: #fff;
+    --bg-color: #1b1f24;
+    --second-color: #22282f;
+    --main-color: #13bbff;
+    --other-color: #c3cad5;
+
+    --h1-font: 4.5rem;
+    --h2-font: 2.9rem;
+    --p-font: 1rem;
+
+    /* --text-color: #2d3134;
     --bg-color: #f4f8ed;
     --main-color: #f66f4d;
-    --other-color: ##5b5f62;
+    --other-color: ##5b5f62; */
 
-    --h1-font: 5.3rem;
-    --h2-font: 3.6rem;
-    --p-font: 1rem;
+   
 }
