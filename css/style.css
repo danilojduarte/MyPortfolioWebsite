@@ -50,7 +50,7 @@ header {
     color: var(--text-color);
     font-weight: 600;
 }
-span {
+.logo span {
     color: var(--main-color);
 }
 .navlist {
@@ -91,3 +91,17 @@ span {
     transform: scale(1.1);
 }
 /* Fim Header */
+
+/* Inicio Section Hero */
+section {
+    padding: 110px 16% 90px;
+}
+.home {
+   position: relative;
+   height: 95vh;
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   gap: 1rem;
+}
