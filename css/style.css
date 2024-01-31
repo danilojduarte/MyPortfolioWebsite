@@ -50,7 +50,7 @@ header {
     color: var(--text-color);
     font-weight: 600;
 }
-.logo span {
+span {
     color: var(--main-color);
 }
 .navlist {
@@ -90,5 +90,4 @@ header {
     box-sizing: 0 0 20px var(--main-color);
     transform: scale(1.1);
 }
-
 /* Fim Header */
