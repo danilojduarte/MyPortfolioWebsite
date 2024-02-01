@@ -185,3 +185,10 @@ section {
     border-radius: 50%;
 }
 /* Fim Section Home */
+
+/* Function JavaScript */
+header.sticky {
+    background: var(--bg-color);
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
+    padding: 16px 16%;
+}
