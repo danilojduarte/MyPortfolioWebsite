@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link Css -->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- Box Icons Link -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Link Para Animações Página -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>My Portfolio WebSite</title>
 </head>
@@ -42,7 +45,7 @@
 
     <!-- Section home -->
     <section class="home" id="home">
-        <div class="home-text">
+        <div class="home-text" data-aos="fade-in">
             <h4>Hi, There!</h4>
             <h1>I'm <span>Danilo Duarte</span></h1>
             <p>
@@ -75,11 +78,11 @@
 
     <!-- Section About -->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="assets/pefil03.jpeg" alt="">
         </div>
 
-        <div class="about-text">
+        <div class="about-text" data-aos="zoom-in-up">
             <h2>I am Web <span>Developer</span> & <span>Designer</span></h2>
             <div class="exp-area">
                 <p class="exp">
@@ -283,8 +286,20 @@
 
 
 
+
     <!-- Arquivo JS -->
     <script src="js/script.js"></script>
+
+    <!-- Script Para Animações em JavaScript -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 1400,
+        });
+    </script>
+
+
 </body>
 
 </html>
