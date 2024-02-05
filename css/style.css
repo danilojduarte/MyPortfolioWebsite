@@ -413,3 +413,11 @@ form .send-btn:hover {
 /* Fim Section Contact */
 
 /* Inicio Footer */
+.footer {
+    padding: 22px 16%;
+    background: var(--second-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
