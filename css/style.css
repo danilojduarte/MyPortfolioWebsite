@@ -101,6 +101,8 @@ section {
    position: relative;
    height: 95vh;
    width: 100%;
+   padding-bottom: 2rem;
+   margin-bottom: 6rem;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
@@ -179,10 +181,12 @@ section {
     text-shadow:  3px 3px 20px #ffff00, -2px 1px 30px #ffff00;
 }
 .home-img img {
-    width: 95%;
-    height: auto;
-    padding-top: 1rem;
-    border-radius: 50%;
+    width: 91%;
+    height: 95%;
+    padding-top: -4rem;
+    padding-bottom: 0;
+    margin-bottom: 4rem;
+    /* border-radius: 50%; */
 }
 /* Fim Section Home */
 
@@ -190,7 +194,7 @@ section {
 header.sticky {
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
-    padding: 16px 16%;
+    padding: 18px 16%;
 }
 
 /* Inicio Section About */
@@ -199,6 +203,7 @@ header.sticky {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    margin-top: 6rem;
     gap: 1;
 }
 .about-img img {
