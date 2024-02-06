@@ -592,12 +592,16 @@ form .send-btn:hover {
         display: inline-block;
         padding: 6px 20px;
     }
+    .about {
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
     .home-img img {
         width: 91%;
-        height: 95%;
+        height: 92%;
         padding-top: -2rem;
         padding-bottom: 0;
-        margin-bottom: 3rem;
+        margin-bottom: 3.4rem;
     }
     .about-img img {
         text-align: center;
